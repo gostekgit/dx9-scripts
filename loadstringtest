@@ -1,4 +1,4 @@
---// DaHood Ping To Prediciton Increment Thing - supg edit by gostek//--
+--// DaHood Ping To Prediciton Increment Thing - supg //--
 
 --[[
 
@@ -16,19 +16,22 @@ script made by supg B)
 ]]
 
 --// Change this stuff if you need to
-local down_key = '[*]'
-local up_key = '[-]'
+local down_key = '[F]'
+local up_key = '[G]'
 local info_location = {169, 7} -- X, Y Location of where the info box showing ping and sense is located
 
 --// This table can be expanded / lowered / replaced. The scripts adjusts to any valid set.
 local sets = {
     [40] = 7.62,
+    [45] = 7.58,
     [50] = 7.46,
-    [55] = 7.34
+    [55] = 7.34,
     [60] = 7.22,
-    [65] = 7.16
+    [65] = 7.14,
     [70] = 7.02,
+    [75] = 6.94,
     [80] = 6.82,
+    [85] = 6.76,
     [90] = 6.612,
     [100] = 6.41,
     [110] = 6.18,
